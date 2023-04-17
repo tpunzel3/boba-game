@@ -266,6 +266,10 @@ MonoBehaviour:
   - {fileID: 186743243847202788, guid: df2a6262d89ac8c419310dec831bced2, type: 3}
   - {fileID: 6524633242023849026, guid: 5f2bc11818c4f084aa5e65631ffa4f83, type: 3}
   - {fileID: 1281825240951019489, guid: de8f5dbbf69051246aeac8ea7d66d196, type: 3}
+  closedRoom: {fileID: 1381463862937180653, guid: c103b4b6ab017f2408174196af6a96f2, type: 3}
+  rooms: []
+  waitTime: 2
+  boss: {fileID: 2590864524482759195, guid: a0ff191ccafedbd4983aae038a4f89f8, type: 3}
 --- !u!4 &798656198
 Transform:
   m_ObjectHideFlags: 0
