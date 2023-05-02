@@ -251,21 +251,33 @@ MonoBehaviour:
   - {fileID: 8090377920837301198, guid: d958d83bda391ee4baac55d7b9a83947, type: 3}
   - {fileID: 6524633242023849026, guid: 5f2bc11818c4f084aa5e65631ffa4f83, type: 3}
   - {fileID: 5050076194454890209, guid: 2cb51f044764b6b46b5d76a1c2f07f5f, type: 3}
+  - {fileID: 8541610188298250821, guid: 026f3b25a66d62646a8bb9cd0508444d, type: 3}
+  - {fileID: 4133268647046168362, guid: 2986122587fec8c4aa1a58c2fa8e9c44, type: 3}
+  - {fileID: 3954758894192889324, guid: 74dd46e3da5b07a4db9e797ebdfe7f29, type: 3}
   topRooms:
   - {fileID: 6568672761660931425, guid: 2b3b5627f5882d04faaaad3c43419128, type: 3}
   - {fileID: 5050076194454890209, guid: 2cb51f044764b6b46b5d76a1c2f07f5f, type: 3}
   - {fileID: 6659483937276754895, guid: af6816f8aa6042b42a45874190a4a3be, type: 3}
   - {fileID: 1281825240951019489, guid: de8f5dbbf69051246aeac8ea7d66d196, type: 3}
+  - {fileID: 4133268647046168362, guid: 2986122587fec8c4aa1a58c2fa8e9c44, type: 3}
+  - {fileID: 1580345631477352140, guid: 0a7d76fce11d94a4291654a32ae59b45, type: 3}
+  - {fileID: 3954758894192889324, guid: 74dd46e3da5b07a4db9e797ebdfe7f29, type: 3}
   leftRooms:
   - {fileID: 8101580639386191745, guid: a5f0630b7b2db2e4f91ddda917d3e23a, type: 3}
   - {fileID: 8090377920837301198, guid: d958d83bda391ee4baac55d7b9a83947, type: 3}
   - {fileID: 5037362571552551343, guid: 4bdd7a93552aed74596d516c4770de33, type: 3}
   - {fileID: 6659483937276754895, guid: af6816f8aa6042b42a45874190a4a3be, type: 3}
+  - {fileID: 8541610188298250821, guid: 026f3b25a66d62646a8bb9cd0508444d, type: 3}
+  - {fileID: 1580345631477352140, guid: 0a7d76fce11d94a4291654a32ae59b45, type: 3}
+  - {fileID: 4133268647046168362, guid: 2986122587fec8c4aa1a58c2fa8e9c44, type: 3}
   rightRooms:
   - {fileID: 5037362571552551343, guid: 4bdd7a93552aed74596d516c4770de33, type: 3}
   - {fileID: 186743243847202788, guid: df2a6262d89ac8c419310dec831bced2, type: 3}
   - {fileID: 6524633242023849026, guid: 5f2bc11818c4f084aa5e65631ffa4f83, type: 3}
   - {fileID: 1281825240951019489, guid: de8f5dbbf69051246aeac8ea7d66d196, type: 3}
+  - {fileID: 8541610188298250821, guid: 026f3b25a66d62646a8bb9cd0508444d, type: 3}
+  - {fileID: 1580345631477352140, guid: 0a7d76fce11d94a4291654a32ae59b45, type: 3}
+  - {fileID: 3954758894192889324, guid: 74dd46e3da5b07a4db9e797ebdfe7f29, type: 3}
   closedRoom: {fileID: 1381463862937180653, guid: c103b4b6ab017f2408174196af6a96f2, type: 3}
   rooms: []
   waitTime: 2
@@ -379,6 +391,10 @@ PrefabInstance:
     - target: {fileID: 8099677941476920032, guid: 81039a3161136de4296b59263f1d5198, type: 3}
       propertyPath: m_Name
       value: Entry Room
+      objectReference: {fileID: 0}
+    - target: {fileID: 8099677941476920032, guid: 81039a3161136de4296b59263f1d5198, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8099677941476920033, guid: 81039a3161136de4296b59263f1d5198, type: 3}
       propertyPath: m_RootOrder
