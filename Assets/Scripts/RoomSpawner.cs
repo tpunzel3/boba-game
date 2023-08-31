@@ -32,25 +32,25 @@ public class RoomSpawner : MonoBehaviour
 
                 // Need to spawn a room with a bottom door
                 rand = Random.Range(0, templates.bottomRooms.Length);
-                Instantiate(templates.bottomRooms[rand], transform.position, Quaternion.identity);
+                Instantiate(templates.bottomRooms[rand], transform.position, transform.rotation);
             }
             else if (openingDirection == 2)
             {
                 // Need to spawn a room with a top door
                 rand = Random.Range(0, templates.topRooms.Length);
-                Instantiate(templates.topRooms[rand], transform.position, Quaternion.identity);
+                Instantiate(templates.topRooms[rand], transform.position, transform.rotation);
             }
             else if (openingDirection == 3)
             {
                 // Need to spawn a room with a left door
                 rand = Random.Range(0, templates.leftRooms.Length);
-                Instantiate(templates.leftRooms[rand], transform.position, Quaternion.identity);
+                Instantiate(templates.leftRooms[rand], transform.position, transform.rotation);
             }
             else if (openingDirection == 4)
             {
                 // Need to spawn a room with a right door
                 rand = Random.Range(0, templates.rightRooms.Length);
-                Instantiate(templates.rightRooms[rand], transform.position, Quaternion.identity);
+                Instantiate(templates.rightRooms[rand], transform.position, transform.rotation);
             }
             spawned = true;
         }
@@ -64,7 +64,7 @@ public class RoomSpawner : MonoBehaviour
             if(other.GetComponent<RoomSpawner>().spawned == false && spawned == false)
             {
                 // spawn walls blocking openings
-                Instantiate(templates.closedRoom, transform.position, Quaternion.identity);
+                Instantiate(templates.closedRoom, transform.position, transform.rotation);
                 Destroy(gameObject);
             }
             spawned = true;
