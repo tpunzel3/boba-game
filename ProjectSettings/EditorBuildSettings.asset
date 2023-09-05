@@ -6,8 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Opening Scene.unity
+    path: Assets/Scenes/Main Menu.unity
     guid: c053611417d308b4486c3c07a8a1dd41
+  - enabled: 1
+    path: Assets/Scenes/Game Scene.unity
+    guid: 002bc3d06209e6a449f3f75f907430ae
   - enabled: 0
     path: Assets/Scenes/Tristan Scene.unity
     guid: d0271a2104c841444a68dc580ebe4631
